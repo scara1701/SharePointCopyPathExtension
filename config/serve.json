@@ -1,0 +1,31 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/core-build/serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://x0mnh.sharepoint.com/sites/dev/Lists/StorageList/AllItems.aspx",
+      "customActions": {
+        "d06fe138-39a2-4a4a-9e3d-e4b2cd45143a": {
+          "location": "ClientSideExtension.ListViewCommandSet.CommandBar",
+          "properties": {
+            "sampleTextOne": "One item is selected in the list",
+            "sampleTextTwo": "This command is always visible."
+          }
+        }
+      }
+    },
+    "myCustomCommandbar": {
+      "pageUrl": "https://x0mnh.sharepoint.com/sites/dev/Lists/StorageList/AllItems.aspx",
+      "customActions": {
+        "d06fe138-39a2-4a4a-9e3d-e4b2cd45143a": {
+          "location": "ClientSideExtension.ListViewCommandSet.CommandBar",
+          "properties": {
+            "sampleTextOne": "One item is selected in the list",
+            "sampleTextTwo": "This command is always visible."
+          }
+        }
+      }
+    }
+  }
+}
